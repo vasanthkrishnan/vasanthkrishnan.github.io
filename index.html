@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        body {
+            width: 100vw;
+            background-color: #f5f5f5;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .section-1 {
+            width: 80%;
+            height: 12rem;
+            background-color: #aed6f1 ;
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            border-top: 1px solid #34495e;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center ;
+        }
+        /* .section-6 {
+            width: 80%;
+            height: 3rem;
+            background-color: #aed6f1 ;
+            border: 1px solid #34495e;
+
+        } */
+
+        .profile-img-section {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+
+        .profile-data {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+        }
+
+        .profile-img {
+            height: 8rem;
+            width: 8rem;
+            border-radius: 50%;
+        }
+
+        .section-2 {
+            width: 80%;
+            height: 12rem;
+            /* background-color: aquamarine; */
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+
+        .section-3 {
+            width: 80%;
+            height: 20rem;
+            /* background-color: aquamarine; */
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+
+        .section-4 {
+            width: 80%;
+            height: 19rem;
+            /* background-color: aquamarine; */
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+        .section-5 {
+            width: 80%;
+            height: 10rem;
+            /* background-color: aquamarine; */
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* padding: 10px; */
+        }
+
+        .section-title {
+            /* height: 10%; */
+            margin-left: 1vh;
+            color: #21618c;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .section-2 p {
+            margin-left: 2vh;
+        }
+
+        .ed-table {
+            width: 100%;
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 1rem;
+            border: 1px solid gray;
+        }
+        .ed-table th:nth-child(2), .ed-table td:nth-child(2) {
+            width: 20rem;
+        }
+
+        li {
+            margin-left: 2rem;
+            list-style: square;
+        }
+        .companies {
+            font-weight: bold;
+            color: #21618c;
+        }
+        .section-4 p {
+            margin-left: 2vh;
+            padding-bottom: 3vh;
+        }
+        .para {
+            padding: 10px;
+        }
+        /* .flex-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        } */
+
+        .section-6 {
+            width: 80%;
+            height: 4rem;
+            border-left: 1px solid #34495e;
+            border-right: 1px solid #34495e;
+            border-bottom: 1px solid #34495e;
+
+        }
+        .button {
+            padding-right: 2rem;
+            padding-left: 2rem;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .button-style {
+            font-size: 25px;
+            color: black;
+        }
+        .flex-item {
+            display: flex;
+            flex-direction: row;
+            /* align-items: center; */
+            justify-content: center;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-1">
+        <div class="profile-img-section">
+            <img class="profile-img" src="img/image.jpg" alt="vasanth">
+
+        </div>
+        <div class="profile-data">
+            <h1>Vasanth s</h1>
+            <h3>vasanth@gmail.com</h3>
+
+        </div>
+    </div>
+    <div class="section-2">
+        <h1 class="section-title">
+            Objective
+        </h1>
+        <p class="para">
+            kjfsdlkfj dlfsdoifoeildf sdjdfueflkjfds dslfjoiefdslkfj dkfjoiejfldsjfnvoisdfe ddjfjeoifjdslkjf sdifjeoildsjf 
+        </p>
+    </div>
+    <div class="section-3">
+        <h1 class="section-title">
+            Education
+        </h1>
+        <table class="ed-table">
+            <tr>
+                <th>Degree</th>
+                <th>Campus</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>Noyes Matric Hr.Sec. School</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Noyes Matric Hr.Sec. School</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>B.Tech. IT</td>
+                <td>Sri shakthi Institute of Eng & Tech.</td>
+                <td>8.42</td>
+            </tr>
+        </table>
+    </div>
+    <div class="section-4">
+        <h1 class="section-title">
+            Internship
+        </h1>
+        <p class="para">
+            <span class="companies">ACCOUNT MANAGER / VANARSDEL, LTD</span>
+            JUNE 2024 PRESENT
+            Managed and grew key account by developing strong relation
+            implementing effective sales strategies
+        </p>
+        <p class="para">
+            <span class="companies">ACCOUNT MANAGER / VANARSDEL, LTD</span>
+            JUNE 2024 PRESENT
+            Managed and grew key account by developing strong relation
+            implementing effective sales strategies
+        </p>
+    </div>
+    <div class="section-5">
+        <h1 class="section-title">
+            Skills
+        </h1>
+        <ul>
+            <li>Mern</li>
+            <li>Spring Boot</li>
+            <li>Cloud</li>
+            <li>Java</li>
+        </ul>
+    </div>
+    <div class="section-6">
+        <div class="flex-item">
+            <a href="tel:9489858821" target="_blank">
+                <button class="button"><i class="fa-solid fa-phone button-style"></i></button>
+            </a>
+            <a href="mailto:vasanthkrish.s2004@gmail.com" target="_blank">
+                <button class="button"><i class="fa-solid fa-envelope button-style"></i></button>
+            </a>
+            <a href="https://github.com/vasanthkrishnan" target="_blank">
+                <button class="button"><i class="fa-brands fa-github button-style"></i></button>
+            </a>
+            <a href="https://www.linkedin.com/in/vasanthkrish2004" target="_blank">
+                <button class="button"><i class="fa-brands fa-linkedin button-style"></i></button>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    
+</script>
+</script>
+</html>
